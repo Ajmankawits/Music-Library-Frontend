@@ -25,8 +25,6 @@ const MusicTable = (props) => {
                             <td>{song.genre}</td>
                             <td>{song.likes}</td>
                             <td>{song.image}</td>
-                            <button>Delete Filler</button>
-                            <button>Edit Filler</button>
                         </tr>
                     )
                 })}
